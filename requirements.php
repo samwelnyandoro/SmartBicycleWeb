@@ -33,7 +33,6 @@ if (!isset($frameworkPath) || !is_dir($frameworkPath)) {
         . "<p><strong>The path to yii framework seems to be incorrect.</strong></p>\n"
         . '<p>You need to install Yii framework via composer or adjust the framework path in file <abbr title="' . __FILE__ . '">' . basename(__FILE__) . "</abbr>.</p>\n"
         . '<p>Please refer to the <abbr title="' . dirname(__FILE__) . "/README.md\">README</abbr> on how to install Yii.</p>\n";
-
     if (!empty($_SERVER['argv'])) {
         // do not print HTML when used in console mode
         echo strip_tags($message);
