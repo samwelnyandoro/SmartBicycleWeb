@@ -26,8 +26,6 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
             'accessToken' => '101-token',
         ],
     ];
-
-
     /**
      * {@inheritdoc}
      */
