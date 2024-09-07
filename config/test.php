@@ -11,7 +11,6 @@ return [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
-
     'language' => 'en-US',
     'components' => [
         'db' => $db,
@@ -42,6 +41,5 @@ return [
             */
         ],
     ],
-    
     'params' => $params,
 ];
