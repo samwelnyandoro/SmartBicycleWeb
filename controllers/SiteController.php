@@ -110,6 +110,7 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+    
     /**
      * Displays about page.
      *
